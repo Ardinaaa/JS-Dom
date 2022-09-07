@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nomer5</title>
+</head>
+<body>
+    <h1 id="Judul">Judul Dari Halaman</h1>
+    <h1 id="Tes">Uji Coba</h1>
+    <p id="Paragraf">SMK Telkom Malang adalah pelopor Sekolah menengah kejuruan pertama di Indonesia di bidang Teknologi dan Informatika.</p>
+    <img src="smk telkom.jpg" id="Duplikat">
+    <script>
+        var Latihan=document.getElementById("Paragraf");
+        Paragraf.style.color="blue";
+
+        var Gambar = document.createElement("img");
+         Gambar.src = "lapangan.jpg";
+         document.body.append(Gambar);
+
+         var Hapus=document.getElementById("Tes");
+        Tes.remove();
+
+        var Coba=document.getElementById("Duplikat")
+        Duplikat.style.backgroundColor="red";
+        Duplikat.style.padding="50px";
+    </script>
+</body>
+</html>
